@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Gilroy',sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#Box{
+    width: 85vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 42.5vw 42.5vw;
+}
+
+
+#Left{
+    display: grid;
+    grid-template-rows: 30vh 25vh 25vh;
+}
+
+
+#LUper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2.5vw;
+}
+#LUper h1{
+    font-size: 80px;
+}
+
+
+#LCenter{
+    padding-left: 2.5vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#Button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.5px;
+    border: 1.25px solid rgb(80, 79, 79);
+    width: 120px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 10px;
+}
+.c{
+    height: 16.5px;
+    width: 16.5px;
+    border-radius: 50%;
+}
+#c1{
+    background-color: black;
+}
+#c2{
+    background-color: blue;
+}
+
+
+
+#LBottem{
+    color: black;
+    padding: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#LBottem h5{
+    font-weight: 500;
+    font-size: 1vw;
+    margin-top: 1vh;
+}
+
+
+#Right{
+    display: grid;
+    grid-template-columns: 10vw 22.5vw 10vw;
+}
+#RFirst{
+    display: flex;
+    position: relative;
+}
+#RFirst h1 {
+    position: absolute;
+    transform: rotate(270deg);
+    white-space: nowrap;
+    font-size: 30px;
+    left:0px;
+    bottom: 150px;
+}
+
+#RSecond{
+    display: grid;
+    grid-template-rows: 15vh 65vh;
+}
+#RSUp{
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+}
+#RSDown{
+    background-color: brown;
+    background-image: url(https://m.media-amazon.com/images/I/51V7cZsyhgL._SY625_.jpg);
+    background-size: cover;
+    background-position:center;
+}
+#RSR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#RSR .ri-star-fill {
+    color: yellow;
+}
+#RThird{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+
+}
+#Circle{
+    background-color: black;
+    margin-left: 0;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Circle h3{
+    position: absolute;
+    color: aliceblue;
+}
